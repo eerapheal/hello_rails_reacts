@@ -4,5 +4,5 @@ Rails.application.routes.draw do
     get 'messages/random', to: 'messages#random'
   end
   
-  root 'static_pages#home'
+  root to: 'static_pages#home'
 end
