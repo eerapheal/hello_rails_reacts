@@ -9,7 +9,6 @@ const App = () => {
   useEffect(() => {
     dispatch(fetchRandomMessage());
   }, [dispatch]);
-
   return (
     <Routes>
       <Route path="/" element={<Greeting />} />
